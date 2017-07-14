@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+puts RUBY_VERSION
+
 gem "rdoc"
 gem "rails", "~> 4.0.13"
 gem "sqlite3"

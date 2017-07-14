@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+puts RUBY_VERSION
+
 gem 'rdoc'
 
 # Specify your gem's dependencies in rediska.gemspec
