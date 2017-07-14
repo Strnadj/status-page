@@ -4,5 +4,15 @@ source "https://rubygems.org"
 
 gem "rdoc"
 gem "rails", "~> 4.0.13"
+gem 'sqlite3'
+gem 'rspec-rails', '3.6.0'
+gem 'database_cleaner'
+gem 'spork'
+gem 'pry'
+gem 'coveralls'
+gem 'timecop'
+gem 'rediska'
+gem 'sidekiq'
+gem 'resque'
 
 gemspec path: "../"
