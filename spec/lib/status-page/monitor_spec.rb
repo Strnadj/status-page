@@ -10,7 +10,7 @@ describe StatusPage do
     Timecop.freeze(time)
   end
 
-  let(:request) { ActionController::TestRequest.create }
+  let(:request) { test_request }
 
   after do
     Timecop.return

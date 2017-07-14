@@ -7,7 +7,7 @@ describe StatusPage::Services::Sidekiq do
     end
   end
 
-  subject { described_class.new(request: ActionController::TestRequest.create) }
+  subject { described_class.new(request: test_request) }
 
   before do
     redis_conn = proc { Redis.new }

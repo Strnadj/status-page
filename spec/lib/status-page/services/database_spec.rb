@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe StatusPage::Services::Database do
-  subject { described_class.new(request: ActionController::TestRequest.create) }
+  subject { described_class.new(request: test_request) }
 
   describe '#service_name' do
     it { expect(described_class.service_name).to eq('Database') }
