@@ -19,5 +19,4 @@ Gem::Specification.new do |s|
 
   # Rails 4.0+
   s.add_dependency 'rails', '>= 4.0'
-  s.add_development_dependency 'appraisal'
 end

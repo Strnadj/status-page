@@ -1,8 +1,10 @@
 require 'rubygems'
 require 'spork'
 
-require 'coveralls'
-Coveralls.wear!
+if RUBY_VERSION > '2.0'
+  require 'coveralls'
+  Coveralls.wear!
+end
 
 Spork.prefork do
   ENV['RAILS_ENV'] ||= 'test'
